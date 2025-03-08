@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="menu">
+      <h1>Lê Quang Luân</h1>
+      <nav>
+        <div>
+          <i class="fa-solid fa-house"></i>
+          <span class="home"><a href="#Home">Home</a></span>
+        </div>
+        <div>
+          <i class="fa-solid fa-address-book"></i
+          ><span class="about"><a href=" #About">About</a></span>
+        </div>
+        <div>
+          <i class="fa-solid fa-puzzle-piece"></i>
+          <span class="skills"><a href="#Skills">Skills</a></span>
+        </div>
+        <div>
+          <i class="fa-regular fa-address-book"></i>
+          <span class="contact"><a href="#Contact">Contact</a></span>
+        </div>
+      </nav>
+    </header>
+
+    <section id="About">
+      <div class="anh">
+        <img src="./img/daidien.jpg" alt="" />
+      </div>
+      <h2>
+        Tôi là Luân <br />
+        Lập trình viên Web
+      </h2>
+    </section>
+
+    <section id="Skills">
+      <h2>Kỹ năng</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>NodeJS</li>
+      </ul>
+    </section>
+
+    <section class="duan">
+      <h2>Dự án đã làm</h2>
+      <article class="project">
+        <h3>Dự án 1: Website bán hàng</h3>
+        <p>Mô tả: Xây dựng trang web thương mại điện tử</p>
+      </article>
+      <article class="project">
+        <h3>Dự án 2: Ứng dụng quản lí công việc</h3>
+        <p>Mô tả: Xây dựng ứng dụng quản lí công việc</p>
+      </article>
+    </section>
+
+    <section id="Contact">
+      <h2>Liên hệ với tôi</h2>
+      <form action="submit.php" method="POST">
+        <label for="name">Họ và Tên:</label>
+        <input type="text" name="name" id="name" />
+        <label for="email">Email:</label>
+        <input type="text" name="email" id="email" />
+        <label for="phone">Nhập số điện thoại của bạn:</label>
+        <input type="tel" name="phone" id="phone" />
+        <label for="topic">Chủ đề:</label>
+        <input type="text" name="topic" id="topic" />
+        <label for="content">Nhập nội dung:</label>
+        <input type="text" name="content" id="content" />
+        <button type="submit">Gửi tin nhắn</button>
+        <button type="reset">Nhập lại</button>
+      </form>
+    </section>
+
+    <section class="social">
+      <h2>Kết bạn với tôi</h2>
+      <a href="https://www.facebook.com/" target="_blank">
+        <i class="fa-brands fa-facebook"></i>
+      </a>
+      <a href="https://github.com/" target="_blank">
+        <i class="fa-brands fa-github"></i>
+      </a>
+    </section>
+  </body>
+</html>
